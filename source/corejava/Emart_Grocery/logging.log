@@ -1,0 +1,570 @@
+2023-03-28 17:35:55 INFO  Client:14 - hey!
+  2023-03-31 13:05:38 INFO  Client:14 - hey!
+  2023-03-31 13:05:38 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-03-31 13:38:29 INFO  Client:14 - hey!
+  2023-03-31 13:38:29 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-02 16:08:16 INFO  Client:15 - hey!
+  2023-04-02 16:08:16 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-02 16:09:14 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-02 16:09:18 INFO  CustomerServiceImpl:18 - Enter Details to register :
+  2023-04-02 16:09:18 INFO  CustomerServiceImpl:19 - Enter Your Name :
+  2023-04-03 00:55:29 INFO  Client:15 - hey!
+  2023-04-03 00:55:29 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 00:56:21 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 00:56:24 INFO  CustomerServiceImpl:20 - Enter Details to register :
+  2023-04-03 00:56:24 INFO  CustomerServiceImpl:21 - Enter Your Name :
+  2023-04-03 00:56:31 INFO  CustomerServiceImpl:23 - Enter Your E-Mail :
+  2023-04-03 00:56:40 INFO  CustomerServiceImpl:25 - Enter Your Phone :
+  2023-04-03 00:56:46 INFO  CustomerServiceImpl:27 - Enter Your Location :
+  2023-04-03 00:56:50 INFO  CustomerServiceImpl:29 - Enter Your Password :
+  2023-04-03 00:56:58 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 00:57:36 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 00:57:37 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 00:57:44 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 00:57:46 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 00:57:46 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 00:57:51 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 00:59:04 INFO  Client:15 - hey!
+  2023-04-03 00:59:04 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 00:59:06 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 00:59:11 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 00:59:19 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 00:59:22 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 00:59:22 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 00:59:25 INFO  CustomerDAO:153 - Customer Id :CUST1
+Customer Name:kumar
+Customer E-mail:kumar@gmail.com
+ Customer phone :9876543210
+ Customer Location :hjd
+  2023-04-03 00:59:25 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 00:59:32 INFO  ProductServiceImpl:48 - Product [prodId=2, prodName=Apple, prodType=fruit, prodBrand=kashmir, prodPrice=23.0, prodQuantity=34, prodCode=PROD0003, expiryDate=2023-03-28]
+  2023-04-03 00:59:32 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 00:59:39 INFO  CustomerServiceImpl:82 - Enetr Your customer Id :
+  2023-04-03 00:59:52 INFO  CustomerServiceImpl:84 - Enter the product Id you want to order : 
+  2023-04-03 00:59:57 INFO  CustomerServiceImpl:94 - Enter the produt name you want to order : 
+  2023-04-03 01:00:12 INFO  CustomerServiceImpl:96 - Enter the product quantity
+  2023-04-03 01:00:20 INFO  OrderDAO:42 - Order Placed
+  2023-04-03 01:00:20 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Delete Customer 6.exit
+  2023-04-03 01:15:42 INFO  Client:15 - hey!
+  2023-04-03 01:15:42 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:15:44 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:15:45 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 01:15:56 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 01:16:00 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 01:16:00 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-03 01:16:03 INFO  CustomerServiceImpl:126 - Please enter orderId which you want to get Invoice:
+  2023-04-03 01:16:27 INFO  Client:15 - hey!
+  2023-04-03 01:16:27 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:16:29 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:16:30 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 01:16:36 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 01:16:39 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 01:16:39 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-03 01:16:42 INFO  CustomerServiceImpl:126 - Please enter orderId which you want to get Invoice:
+  2023-04-03 01:18:20 INFO  CustomerServiceImpl:130 - Invoice:
+Order [orderId=0, prodId=0, prodName=null, quantity=0, prodPrice=0.0, custId=null, totalPrice=0.0, orderStatus=null]
+  2023-04-03 01:18:20 INFO  CustomerServiceImpl:74 - Enter the customer Id of the customer to be deleted:
+  2023-04-03 01:19:41 INFO  Client:15 - hey!
+  2023-04-03 01:19:41 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:19:44 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:19:46 INFO  SupplierServiceImpl:43 - Enter  E-Mail:
+  2023-04-03 01:19:52 INFO  SupplierServiceImpl:45 - Enter  Password:
+  2023-04-03 01:19:55 INFO  SupplierDAO:68 - Login Successfull
+  2023-04-03 01:19:55 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:20:03 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:20:56 INFO  Client:15 - hey!
+  2023-04-03 01:20:56 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:20:58 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:20:59 INFO  SupplierServiceImpl:43 - Enter  E-Mail:
+  2023-04-03 01:21:08 INFO  SupplierServiceImpl:45 - Enter  Password:
+  2023-04-03 01:21:11 INFO  SupplierDAO:68 - Login Successfull
+  2023-04-03 01:21:11 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:21:13 INFO  SupplierServiceImpl:81 - Order [orderId=2, prodId=0, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Pending]
+  2023-04-03 01:21:13 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:22:54 INFO  Client:15 - hey!
+  2023-04-03 01:22:55 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:22:56 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:22:57 INFO  SupplierServiceImpl:43 - Enter  E-Mail:
+  2023-04-03 01:23:04 INFO  SupplierServiceImpl:45 - Enter  Password:
+  2023-04-03 01:23:06 INFO  SupplierDAO:68 - Login Successfull
+  2023-04-03 01:23:06 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:23:09 INFO  SupplierServiceImpl:87 - Enter the order Id yoy want to update the status : 
+  2023-04-03 01:23:16 INFO  SupplierServiceImpl:89 - 1.Approve
+2.Reject
+  2023-04-03 01:23:18 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:23:21 INFO  SupplierServiceImpl:81 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-03 01:23:21 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 01:23:29 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:23:31 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:23:33 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 01:23:41 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 01:23:43 INFO  CustomerDAO:76 - Invalid Credentials
+  2023-04-03 01:23:43 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:23:53 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:23:55 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 01:24:01 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 01:24:02 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 01:24:02 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-03 01:24:04 INFO  CustomerServiceImpl:125 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-03 01:24:04 INFO  CustomerServiceImpl:126 - Please enter orderId which you want to get Invoice:
+  2023-04-03 01:24:21 INFO  CustomerServiceImpl:132 - Invalid orderId, try again!
+  2023-04-03 01:24:21 INFO  CustomerServiceImpl:125 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-03 01:24:21 INFO  CustomerServiceImpl:126 - Please enter orderId which you want to get Invoice:
+  2023-04-03 01:24:31 INFO  CustomerServiceImpl:130 - Invoice:
+Order [orderId=2, prodId=0, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-03 01:24:31 INFO  CustomerServiceImpl:74 - Enter the customer Id of the customer to be deleted:
+  2023-04-03 01:25:42 INFO  Client:15 - hey!
+  2023-04-03 01:25:42 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 01:25:44 INFO  CustomerController:21 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 01:25:46 INFO  CustomerServiceImpl:40 - Enter Your E-Mail:
+  2023-04-03 01:25:52 INFO  CustomerServiceImpl:42 - Enter Your Password:
+  2023-04-03 01:25:55 INFO  CustomerDAO:70 - Login Successfull
+  2023-04-03 01:25:55 INFO  CustomerController:46 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-03 01:25:58 INFO  CustomerServiceImpl:125 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-03 01:25:58 INFO  CustomerServiceImpl:126 - Please enter orderId which you want to get Invoice:
+  2023-04-03 02:01:16 INFO  EGDatabaseConnection:26 - Please provide database login credentails:
+userName and password
+  2023-04-03 02:01:24 INFO  MainController:18 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 10:49:15 INFO  EGDatabaseConnection:26 - Please provide database login credentails:
+userName and password
+  2023-04-03 11:12:17 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 12:13:28 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 15:04:29 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-03 15:04:34 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-03 15:04:38 INFO  SupplierServiceImpl:53 - Enter  E-Mail:
+  2023-04-03 15:04:58 INFO  SupplierServiceImpl:55 - Enter  Password:
+  2023-04-03 15:05:02 INFO  SupplierDAO:70 - Login Successfull
+  2023-04-03 15:05:02 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-03 17:53:09 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-05 16:21:32 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-05 16:21:34 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-08 23:17:34 INFO  MainController:20 - Enter Your Choice 
+ 1.Supplier 
+ 2.Customer 
+ 3.exit
+  2023-04-08 23:22:24 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-08 23:22:26 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:22:26 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:22:26 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:22:26 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:22:26 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:22:26 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:22:26 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:22:36 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:22:36 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:22:36 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:22:36 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:22:36 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:22:36 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:22:36 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:23:07 INFO  AdminController:81 - Prsee 1 To Show All Customers
+  2023-04-08 23:23:07 INFO  AdminController:82 - Prsee 2 To Remove Customer
+  2023-04-08 23:23:07 INFO  AdminController:83 - Prsee 3 To Search Customer By Id
+  2023-04-08 23:23:15 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:23:15 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:23:15 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:23:15 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:23:15 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:23:15 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:23:15 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:23:28 INFO  AdminController:81 - Prsee 1 To Show All Customers
+  2023-04-08 23:23:28 INFO  AdminController:82 - Prsee 2 To Remove Customer
+  2023-04-08 23:23:28 INFO  AdminController:83 - Prsee 3 To Search Customer By Id
+  2023-04-08 23:23:31 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:23:31 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:23:31 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:23:31 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:23:31 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:23:31 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:23:31 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:23:44 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:23:44 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:23:44 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:23:44 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:23:44 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:23:44 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:23:44 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:24:27 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-08 23:24:28 INFO  AdminController:14 - Prsee 1 To View Profile
+  2023-04-08 23:24:28 INFO  AdminController:15 - Prsee 2 To Update Profile
+  2023-04-08 23:24:28 INFO  AdminController:16 - Prsee 3 To Perform Curd Operations For Supplier
+  2023-04-08 23:24:28 INFO  AdminController:17 - Prsee 4 To Perform Curd Operations For Customers
+  2023-04-08 23:24:28 INFO  AdminController:18 - Prsee 5 To View Products Form Particular Supplier
+  2023-04-08 23:24:28 INFO  AdminController:19 - Prsee 6 To View Search Product By ID
+  2023-04-08 23:24:28 INFO  AdminController:20 - Prsee 7 To Logout
+  2023-04-08 23:24:30 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:41:38 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:41:42 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-10 10:41:47 INFO  SupplierServiceImpl:53 - Enter  E-Mail:
+  2023-04-10 10:41:55 INFO  SupplierServiceImpl:55 - Enter  Password:
+  2023-04-10 10:41:59 INFO  SupplierDAO:70 - Login Successfull
+  2023-04-10 10:41:59 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:42:13 INFO  ProductServiceImpl:60 - Product [prodId=2, prodName=Apple, prodType=fruit, prodBrand=kashmir, prodPrice=23.0, prodQuantity=34, prodCode=PROD0003, expiryDate=2023-03-28]
+  2023-04-10 10:42:13 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:42:28 INFO  SupplierServiceImpl:91 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-10 10:42:28 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:42:38 INFO  SupplierServiceImpl:97 - Enter the order Id yoy want to update the status : 
+  2023-04-10 10:42:40 INFO  SupplierServiceImpl:99 - 1.Approve
+2.Reject
+  2023-04-10 10:42:52 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:43:16 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:43:33 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:43:35 INFO  CustomerController:22 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-10 10:43:36 INFO  CustomerServiceImpl:57 - Enter Your E-Mail:
+  2023-04-10 10:43:44 INFO  CustomerServiceImpl:59 - Enter Your Password:
+  2023-04-10 10:43:59 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:44:03 INFO  CustomerController:22 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-10 10:44:05 INFO  CustomerServiceImpl:57 - Enter Your E-Mail:
+  2023-04-10 10:44:11 INFO  CustomerServiceImpl:59 - Enter Your Password:
+  2023-04-10 10:44:15 INFO  CustomerDAO:71 - Login Successfull
+  2023-04-10 10:44:15 INFO  CustomerController:47 - ------WelCome ------
+ 1.Profile 
+ 2.Update Profile 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-10 10:44:19 INFO  ProductServiceImpl:60 - Product [prodId=2, prodName=Apple, prodType=fruit, prodBrand=kashmir, prodPrice=23.0, prodQuantity=34, prodCode=PROD0003, expiryDate=2023-03-28]
+  2023-04-10 10:44:19 INFO  CustomerController:47 - ------WelCome ------
+ 1.Profile 
+ 2.Update Profile 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-10 10:44:24 INFO  CustomerServiceImpl:99 - Enetr Your customer Id :
+  2023-04-10 10:44:53 INFO  CustomerServiceImpl:101 - Enter the product Id you want to order : 
+  2023-04-10 10:45:04 INFO  CustomerServiceImpl:111 - Enter the produt name you want to order : 
+  2023-04-10 10:45:12 INFO  CustomerServiceImpl:113 - Enter the product quantity
+  2023-04-10 10:45:16 INFO  OrderDAO:46 - Order Placed
+  2023-04-10 10:45:16 INFO  CustomerController:47 - ------WelCome ------
+ 1.Profile 
+ 2.Update Profile 
+ 3.View Products 
+ 4.Place Order 
+ 5.Get Invoice
+6.Delete Customer 7.exit
+  2023-04-10 10:45:26 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-10 10:45:32 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  2023-04-10 10:45:33 INFO  SupplierServiceImpl:53 - Enter  E-Mail:
+  2023-04-10 10:45:40 INFO  SupplierServiceImpl:55 - Enter  Password:
+  2023-04-10 10:45:43 INFO  SupplierDAO:70 - Login Successfull
+  2023-04-10 10:45:43 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:45:47 INFO  SupplierServiceImpl:91 - Order [orderId=1, prodId=2, prodName=Apple, quantity=4, prodPrice=23.0, custId=CUST1, totalPrice=92.0, orderStatus=Approved]
+  2023-04-10 10:45:47 INFO  SupplierServiceImpl:91 - Order [orderId=2, prodId=2, prodName=Apple, quantity=3, prodPrice=23.0, custId=cust1, totalPrice=69.0, orderStatus=Pending]
+  2023-04-10 10:45:47 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:45:55 INFO  SupplierServiceImpl:97 - Enter the order Id yoy want to update the status : 
+  2023-04-10 10:45:58 INFO  SupplierServiceImpl:99 - 1.Approve
+2.Reject
+  2023-04-10 10:46:00 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:46:08 INFO  ProductServiceImpl:60 - Product [prodId=2, prodName=Apple, prodType=fruit, prodBrand=kashmir, prodPrice=23.0, prodQuantity=1, prodCode=PROD0003, expiryDate=2023-03-28]
+  2023-04-10 10:46:08 INFO  SupplierController:51 - ------WelCome ------
+ 1.View Details 
+ 2.Update Details 
+ 3.Add Products 
+ 4.View Products 
+ 5.Delete Products 
+ 6.Update Products 
+ 7.View Orders 8.Update status of Order 9.exit
+  2023-04-10 10:46:45 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-11 12:39:14 INFO  MainController:21 - Enter Your Choice 
+ 1.Admin 
+ 2.Supplier 
+ 3.Customer 
+ 4.exit
+  2023-04-11 12:39:19 INFO  SupplierController:33 - Enter Your Choice 
+ 1.Register 
+ 2.Login
+  

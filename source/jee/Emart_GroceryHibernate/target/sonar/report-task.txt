@@ -1,0 +1,6 @@
+projectKey=hiber
+serverUrl=http://localhost:9098
+serverVersion=8.9.10.61524
+dashboardUrl=http://localhost:9098/dashboard?id=hiber
+ceTaskId=AYgKBvj2dGhPjY-Ojp--
+ceTaskUrl=http://localhost:9098/api/ce/task?id=AYgKBvj2dGhPjY-Ojp--

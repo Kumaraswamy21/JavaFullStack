@@ -1,0 +1,41 @@
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4dc667;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0bee30;
+}
+
+div {
+
+  background-color:rgb(191 210 229);
+  padding:  25px 22px 23px;
+  margin:150px ;
+   border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+}
+
+body{
+  background-color:#f2f5fb;
+}
+
+div label{
+    font-weight: bold;
+}

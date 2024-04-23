@@ -1,0 +1,785 @@
+2022-10-28 19:59:10.402  INFO 14280 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.2 on CFDDLF351 with PID 14280 (C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication\target\classes started by MADHUMP in C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication)
+2022-10-28 19:59:10.411  INFO 14280 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-10-28 19:59:12.457  INFO 14280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-28 19:59:12.635  INFO 14280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161 ms. Found 11 JPA repository interfaces.
+2022-10-28 19:59:13.715  INFO 14280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-10-28 19:59:13.730  INFO 14280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-28 19:59:13.730  INFO 14280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-28 19:59:14.188  INFO 14280 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-10-28 19:59:14.215  INFO 14280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-28 19:59:14.216  INFO 14280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3443 ms
+2022-10-28 19:59:14.495  INFO 14280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-28 19:59:14.628  INFO 14280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-28 19:59:15.005  INFO 14280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-28 19:59:15.257  INFO 14280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-28 19:59:15.737  INFO 14280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-28 19:59:15.855  INFO 14280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-28 19:59:17.606  INFO 14280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-28 19:59:17.626  INFO 14280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 19:59:18.580  WARN 14280 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-28 19:59:19.389  INFO 14280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-28 19:59:19.401  INFO 14280 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 9.86 seconds (JVM running for 11.336)
+2022-10-28 20:15:37.892  INFO 14280 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 20:15:37.893  INFO 14280 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-28 20:15:37.896  INFO 14280 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-10-28 20:16:05.461  WARN 14280 --- [http-nio-9090-exec-5] c.osw.admin.controller.AdminController   : Exception raised:Admin not found for username Madhu and password madafd
+2022-10-28 20:16:15.573  INFO 14280 --- [http-nio-9090-exec-6] c.osw.admin.controller.AdminController   : adminADMIN_02validation successful
+2022-10-28 20:16:29.926  WARN 14280 --- [http-nio-9090-exec-5] c.osw.admin.controller.AdminController   : In update admin validation failed
+2022-10-28 20:16:34.914  INFO 14280 --- [http-nio-9090-exec-6] c.osw.admin.controller.AdminController   : adminADMIN_02details updated
+2022-10-28 20:18:02.039  INFO 14280 --- [http-nio-9090-exec-9] c.o.p.controller.ProductController       : productPROD_000004added
+2022-10-28 20:18:20.547  INFO 14280 --- [http-nio-9090-exec-4] c.o.p.controller.ProductController       : productPROD_000004details updated
+2022-10-28 20:18:50.539  INFO 14280 --- [http-nio-9090-exec-3] c.o.p.controller.ProductController       : productPROD_000004deleted
+2022-10-28 20:20:04.146  INFO 14280 --- [http-nio-9090-exec-4] c.o.p.controller.ProductController       : categoryCAT_006added
+2022-10-28 20:20:10.747  INFO 14280 --- [http-nio-9090-exec-6] c.o.p.controller.ProductController       : categoryCAT_005deleted
+2022-10-28 20:20:34.824  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : in customer details of admin
+2022-10-28 20:20:40.254  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : in customer details of admin
+2022-10-28 20:20:42.763  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : in customer details of admin
+2022-10-28 20:20:46.484  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : in customer details of admin
+2022-10-28 20:22:45.224  INFO 14280 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 20:22:47.645  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 20:22:47.646  WARN 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer not logged in
+2022-10-28 20:22:49.619  WARN 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer not logged in
+2022-10-28 20:22:51.032  INFO 14280 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:23:01.467  WARN 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer is not logged in
+2022-10-28 20:23:03.633  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:23:04.665  WARN 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer is not logged in
+2022-10-28 20:23:05.944  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:23:07.454  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 20:23:11.801  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 20:23:16.004  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 20:23:17.786  WARN 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer is not logged in to access wishlist
+2022-10-28 20:23:39.692  WARN 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer not logged in
+2022-10-28 20:23:42.480  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:23:43.915  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 20:23:45.250  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 20:23:46.523  WARN 14280 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer is not logged in to access wishlist
+2022-10-28 20:26:58.830  WARN 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer is not logged in to access wishlist
+2022-10-28 20:32:56.882  WARN 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer not logged in
+2022-10-28 20:32:58.145  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:33:05.153  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 20:33:06.705  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 20:33:10.498  WARN 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer is not logged in to access wishlist
+2022-10-28 20:34:58.666  WARN 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer is not logged in to access wishlist
+2022-10-28 20:40:22.427  WARN 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer not logged in
+2022-10-28 20:40:24.137  INFO 14280 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer Home
+2022-10-28 20:40:28.769  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:34:34.738  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:35:41.239  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:35:42.970  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:35:56.266  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:36:36.724  INFO 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 21:36:38.297  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:36:38.297  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer CUST_0002logged in 
+2022-10-28 21:36:40.131  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:36:41.757  INFO 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : In orders page of customer CUST_0002
+2022-10-28 21:36:43.692  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0002
+2022-10-28 21:36:44.781  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In cart of customerCUST_0002
+2022-10-28 21:36:50.044  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer is logged out
+2022-10-28 21:37:03.931  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:06.264  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:07.457  INFO 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:07.649  INFO 14280 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:08.385  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:08.632  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:08.840  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:09.401  INFO 14280 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:09.624  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:09.937  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:10.272  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:10.695  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:10.856  INFO 14280 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:13.360  INFO 14280 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:13.560  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:14.591  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:14.860  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:15.207  INFO 14280 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:22.788  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer is logged out
+2022-10-28 21:37:31.764  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 21:37:33.295  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:37:45.379  INFO 14280 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:46.009  INFO 14280 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:46.207  INFO 14280 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:46.416  INFO 14280 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:47.886  INFO 14280 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:48.055  INFO 14280 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:50.613  INFO 14280 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer signup page
+2022-10-28 21:37:56.728  INFO 14280 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:37:56.911  INFO 14280 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:38:53.264  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-28 21:38:53.275  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-28 21:38:53.277  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-28 21:38:53.290  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:38:53.292  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-28 21:38:53.296  INFO 14280 --- [RMI TCP Connection(104)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-28 21:39:00.670  INFO 5796 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.2 on CFDDLF351 with PID 5796 (C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication\target\classes started by MADHUMP in C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication)
+2022-10-28 21:39:00.672  INFO 5796 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-10-28 21:39:01.912  INFO 5796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-28 21:39:02.040  INFO 5796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 11 JPA repository interfaces.
+2022-10-28 21:39:02.680  INFO 5796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-10-28 21:39:02.692  INFO 5796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-28 21:39:02.692  INFO 5796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-28 21:39:03.005  INFO 5796 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-10-28 21:39:03.020  INFO 5796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-28 21:39:03.020  INFO 5796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2294 ms
+2022-10-28 21:39:03.217  INFO 5796 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-28 21:39:03.357  INFO 5796 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-28 21:39:03.691  INFO 5796 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-28 21:39:03.863  INFO 5796 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-28 21:39:04.202  INFO 5796 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-28 21:39:04.276  INFO 5796 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-28 21:39:05.542  INFO 5796 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-28 21:39:05.553  INFO 5796 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:39:06.299  WARN 5796 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-28 21:39:06.763  INFO 5796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-28 21:39:06.773  INFO 5796 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 6.573 seconds (JVM running for 7.429)
+2022-10-28 21:40:33.103  INFO 5796 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 21:40:33.103  INFO 5796 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-28 21:40:33.104  INFO 5796 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-10-28 21:40:35.358  INFO 5796 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 21:40:37.698  INFO 5796 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:40:52.373  INFO 5796 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:54.435  INFO 5796 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:55.458  INFO 5796 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:55.634  INFO 5796 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:55.836  INFO 5796 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:56.058  INFO 5796 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:56.243  INFO 5796 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:57.553  INFO 5796 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:57.753  INFO 5796 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:58.010  INFO 5796 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:59.449  INFO 5796 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:40:59.615  INFO 5796 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:02.576  INFO 5796 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:02.747  INFO 5796 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:03.006  INFO 5796 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:03.394  INFO 5796 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:03.569  INFO 5796 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:41:03.770  INFO 5796 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:42:43.277  INFO 5796 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:42:44.334  INFO 5796 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer signup page
+2022-10-28 21:42:47.676  INFO 5796 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:43:11.342  INFO 5796 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:43:12.196  INFO 5796 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:45:06.237  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-28 21:45:06.247  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-28 21:45:06.249  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-28 21:45:06.256  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:45:06.257  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-28 21:45:06.264  INFO 5796 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-28 21:45:10.246  INFO 17028 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.2 on CFDDLF351 with PID 17028 (C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication\target\classes started by MADHUMP in C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication)
+2022-10-28 21:45:10.250  INFO 17028 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-10-28 21:45:11.121  INFO 17028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-28 21:45:11.232  INFO 17028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 11 JPA repository interfaces.
+2022-10-28 21:45:11.797  INFO 17028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-10-28 21:45:11.807  INFO 17028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-28 21:45:11.808  INFO 17028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-28 21:45:12.102  INFO 17028 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-10-28 21:45:12.116  INFO 17028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-28 21:45:12.116  INFO 17028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1814 ms
+2022-10-28 21:45:12.266  INFO 17028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-28 21:45:12.327  INFO 17028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-28 21:45:12.525  INFO 17028 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-28 21:45:12.661  INFO 17028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-28 21:45:12.974  INFO 17028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-28 21:45:13.013  INFO 17028 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-28 21:45:14.100  INFO 17028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-28 21:45:14.111  INFO 17028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:45:14.776  WARN 17028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-28 21:45:15.129  INFO 17028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-28 21:45:15.137  INFO 17028 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 5.352 seconds (JVM running for 6.109)
+2022-10-28 21:48:14.058  INFO 17028 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 21:48:14.058  INFO 17028 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-28 21:48:14.060  INFO 17028 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-28 21:48:14.089  INFO 17028 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 21:48:17.014  INFO 17028 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:48:27.775  INFO 17028 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:48:34.454  INFO 17028 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer is logged out
+2022-10-28 21:48:41.503  WARN 17028 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : Exception raised: Customer Not Found for Username Madhu_Axcel and password hrthrth
+2022-10-28 21:49:00.795  INFO 17028 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:49:02.786  INFO 17028 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In orders page of customer CUST_0002
+2022-10-28 21:49:03.717  INFO 17028 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0002
+2022-10-28 21:49:06.833  INFO 17028 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : viewing product PROD_000003
+2022-10-28 21:49:06.990 ERROR 17028 --- [http-nio-9090-exec-10] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+java.lang.NullPointerException: Cannot invoke "com.osw.product.model.Product.getProdName()" because "product" is null
+	at org.apache.jsp.jsp.customer.singleProductpageWishlist_jsp._jspService(singleProductpageWishlist_jsp.java:220) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-28 21:49:06.997 ERROR 17028 --- [http-nio-9090-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [java.lang.NullPointerException: Cannot invoke "com.osw.product.model.Product.getProdName()" because "product" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.osw.product.model.Product.getProdName()" because "product" is null
+	at org.apache.jsp.jsp.customer.singleProductpageWishlist_jsp._jspService(singleProductpageWishlist_jsp.java:220) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-jasper-9.0.65.jar:9.0.65]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1405) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1149) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-28 21:49:14.254  INFO 17028 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In cart of customerCUST_0002
+2022-10-28 21:49:17.168  INFO 17028 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:49:17.169  INFO 17028 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer CUST_0002logged in 
+2022-10-28 21:49:18.959  INFO 17028 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:49:21.172  INFO 17028 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In Product PROD_000003
+2022-10-28 21:49:30.598  INFO 17028 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In cart of customerCUST_0002
+2022-10-28 21:49:32.038  INFO 17028 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : cartline 3 is removed from cart 2
+2022-10-28 21:49:33.350  INFO 17028 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In orders page of customer CUST_0002
+2022-10-28 21:49:34.109  INFO 17028 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0002
+2022-10-28 21:49:37.191  INFO 17028 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : viewing product PROD_000003
+2022-10-28 21:49:38.836  INFO 17028 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : Product PROD_000003 is removed from wishlist of customerCUST_0002
+2022-10-28 21:49:48.147  INFO 17028 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : Product PROD_000003 is added to wishlist of customerCUST_0002
+2022-10-28 21:49:49.398  INFO 17028 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0002
+2022-10-28 21:49:50.909  INFO 17028 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : viewing product PROD_000003
+2022-10-28 21:49:53.311  INFO 17028 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Product PROD_000003 is added to cart 2
+2022-10-28 21:49:53.328 ERROR 17028 --- [http-nio-9090-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaObjectRetrievalFailureException: Unable to find com.osw.customer.model.CartLine with id 3; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.osw.customer.model.CartLine with id 3] with root cause
+
+javax.persistence.EntityNotFoundException: Unable to find com.osw.customer.model.CartLine with id 3
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:177) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:216) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:327) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1231) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.internal.SessionImpl.internalLoad(SessionImpl.java:1096) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:706) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.EntityType.resolve(EntityType.java:465) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.ManyToOneType.resolve(ManyToOneType.java:265) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.EntityType.resolve(EntityType.java:458) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.EntityType.replace(EntityType.java:359) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.CollectionType.replaceElements(CollectionType.java:586) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.CollectionType.replace(CollectionType.java:750) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.type.TypeHelper.replace(TypeHelper.java:168) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.copyValues(DefaultMergeEventListener.java:450) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:347) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:829) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:816) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.23.jar:5.3.23]
+	at jdk.proxy2/jdk.proxy2.$Proxy116.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.23.jar:5.3.23]
+	at jdk.proxy2/jdk.proxy2.$Proxy116.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:669) ~[spring-data-jpa-2.7.3.jar:2.7.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.3.jar:2.7.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.3.jar:2.7.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.23.jar:5.3.23]
+	at jdk.proxy2/jdk.proxy2.$Proxy126.save(Unknown Source) ~[na:na]
+	at com.osw.customer.service.CartService.updateCart(CartService.java:24) ~[classes/:na]
+	at com.osw.customer.controller.CustomerController.addToCart(CustomerController.java:539) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-28 21:52:11.549  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-28 21:52:11.559  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-28 21:52:11.560  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-28 21:52:11.567  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:52:11.568  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-28 21:52:11.574  INFO 17028 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-28 21:53:50.925  INFO 4484 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.2 on CFDDLF351 with PID 4484 (C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication\target\classes started by MADHUMP in C:\Users\MADHUMP\Downloads\18102project\OnlineShoppingApplication)
+2022-10-28 21:53:50.929  INFO 4484 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-10-28 21:53:51.684  INFO 4484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-28 21:53:51.805  INFO 4484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 11 JPA repository interfaces.
+2022-10-28 21:53:52.468  INFO 4484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-10-28 21:53:52.481  INFO 4484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-28 21:53:52.481  INFO 4484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-28 21:53:52.800  INFO 4484 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-10-28 21:53:52.814  INFO 4484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-28 21:53:52.815  INFO 4484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2022-10-28 21:53:52.983  INFO 4484 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-28 21:53:53.046  INFO 4484 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-28 21:53:53.250  INFO 4484 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-28 21:53:53.394  INFO 4484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-28 21:53:53.725  INFO 4484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-28 21:53:53.765  INFO 4484 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-28 21:53:54.854  INFO 4484 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-28 21:53:54.864  INFO 4484 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 21:53:55.531  WARN 4484 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-28 21:53:55.887  INFO 4484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-28 21:53:55.895  INFO 4484 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 5.443 seconds (JVM running for 6.223)
+2022-10-28 21:54:51.110  INFO 4484 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 21:54:51.110  INFO 4484 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-28 21:54:51.111  INFO 4484 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-28 21:54:54.100  INFO 4484 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In customer module
+2022-10-28 21:54:56.192  INFO 4484 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In customer Login page
+2022-10-28 21:55:08.617  INFO 4484 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:55:13.887  INFO 4484 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:55:33.407  INFO 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 21:55:37.367  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : Product PROD_000001 is added to cart 2
+2022-10-28 21:55:43.320  INFO 4484 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@6306abfa quantity is increased by 1
+2022-10-28 21:55:45.505  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@5b22cb55 quantity is increased by 1
+2022-10-28 21:55:49.938  INFO 4484 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@14671ea4 quantity is increased by 1
+2022-10-28 21:55:53.948  WARN 4484 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : No address is found to set order
+2022-10-28 21:55:57.657  INFO 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer is logged out
+2022-10-28 21:56:13.624  INFO 4484 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer validation successful
+2022-10-28 21:56:16.161  INFO 4484 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In orders page of customer CUST_0001
+2022-10-28 21:56:22.032  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0001
+2022-10-28 21:56:22.923  INFO 4484 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-10-28 21:56:27.384  INFO 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:56:27.384  INFO 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-10-28 21:56:28.305  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:56:29.750  INFO 4484 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 21:56:32.005  INFO 4484 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : Product PROD_000001 is added to cart 1
+2022-10-28 21:56:37.118  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:56:37.118  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-10-28 21:56:38.843  INFO 4484 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:56:40.430  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In Product PROD_000003
+2022-10-28 21:56:42.135  INFO 4484 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : Product PROD_000003 is added to cart 1
+2022-10-28 21:56:44.799  INFO 4484 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@3f263454 quantity is increased by 1
+2022-10-28 21:56:47.512  INFO 4484 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@459715a2 quantity is increased by 1
+2022-10-28 21:57:03.661  INFO 4484 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : Order 3 for address Address [addressId=ADDR_01, customer=com.osw.customer.model.Customer@6125fe5f, houseNo=1-1a, street=street, city=city, state=state, country=India, postalCode=506061] of payment type cod is confirmed
+2022-10-28 21:57:10.333  INFO 4484 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-10-28 21:57:14.782  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:57:14.782  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-10-28 21:57:16.236  INFO 4484 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:57:18.007  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-10-28 21:57:19.823  INFO 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Product PROD_000001 is added to cart 1
+2022-10-28 21:57:26.620  INFO 4484 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : In customer home
+2022-10-28 21:57:26.621  INFO 4484 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-10-28 21:57:27.868  INFO 4484 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In category Electronics
+2022-10-28 21:57:29.876  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In Product PROD_000003
+2022-10-28 21:57:31.380  INFO 4484 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : Product PROD_000003 is added to cart 1
+2022-10-28 21:57:41.468  INFO 4484 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : Order 0 for address Address [addressId=ADDR_01, customer=com.osw.customer.model.Customer@16cd0876, houseNo=1-1a, street=street, city=city, state=state, country=India, postalCode=506061] of payment type Online is forwarded
+2022-10-28 22:03:06.823  WARN 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : Etered card details are wrong
+2022-10-28 22:03:25.178  WARN 4484 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Etered card details are wrong
+2022-10-28 22:03:54.739  WARN 4484 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : card validation is failed
+2022-10-28 22:05:07.303  WARN 4484 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : Etered card details are wrong
+2022-10-28 22:05:13.140  INFO 4484 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer is logged out
+2022-10-28 22:09:15.759  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-28 22:09:15.770  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-28 22:09:15.772  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-28 22:09:15.779  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 22:09:15.780  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-28 22:09:15.786  INFO 4484 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-23 13:10:42.368  INFO 9020 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.4.1 on HDLCAMPUS5345 with PID 9020 (C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1\target\classes started by MRAJASRI in C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1)
+2022-11-23 13:10:42.381  INFO 9020 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 13:10:44.433  INFO 9020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 13:10:44.702  INFO 9020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 11 JPA repository interfaces.
+2022-11-23 13:10:45.892  INFO 9020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-11-23 13:10:45.911  INFO 9020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-23 13:10:45.912  INFO 9020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-23 13:10:46.475  INFO 9020 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-11-23 13:10:46.503  INFO 9020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-23 13:10:46.503  INFO 9020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3948 ms
+2022-11-23 13:10:46.810  INFO 9020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 13:10:46.915  INFO 9020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-23 13:10:47.258  INFO 9020 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-23 13:10:47.480  INFO 9020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-23 13:10:48.170  INFO 9020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-23 13:10:48.261  INFO 9020 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 13:10:51.375  INFO 9020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 13:10:51.399  INFO 9020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 13:10:52.748  WARN 9020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 13:10:53.591  INFO 9020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-11-23 13:10:53.610  INFO 9020 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 12.521 seconds (JVM running for 14.573)
+2022-11-23 13:13:20.449  INFO 9020 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 13:13:20.456  INFO 9020 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-23 13:13:20.458  INFO 9020 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-23 13:13:44.000  INFO 9020 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer module
+2022-11-23 13:16:44.936  WARN 9020 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s589ms313µs900ns).
+2022-11-23 14:10:07.648  WARN 9020 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m49s148ms563µs400ns).
+2022-11-23 14:13:37.131  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-23 14:13:37.141  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-23 14:13:37.143  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-23 14:13:37.150  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 14:13:37.152  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-23 14:13:37.157  INFO 9020 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-23 17:46:33.117  INFO 7360 --- [main] com.osw.WorkDemoApplication              : Starting WorkDemoApplication using Java 17.0.4.1 on HDLCAMPUS5345 with PID 7360 (C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1\target\classes started by MRAJASRI in C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1)
+2022-11-23 17:46:33.123  INFO 7360 --- [main] com.osw.WorkDemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 17:46:35.834  INFO 7360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 17:46:36.174  INFO 7360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 304 ms. Found 11 JPA repository interfaces.
+2022-11-23 17:46:37.684  INFO 7360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-11-23 17:46:37.720  INFO 7360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-23 17:46:37.723  INFO 7360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-23 17:46:39.436  INFO 7360 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-11-23 17:46:39.493  INFO 7360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-23 17:46:39.494  INFO 7360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6233 ms
+2022-11-23 17:46:40.139  INFO 7360 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 17:46:40.427  INFO 7360 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-23 17:46:41.299  INFO 7360 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-23 17:46:42.076  INFO 7360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-23 17:46:43.185  INFO 7360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-23 17:46:43.361  INFO 7360 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 17:46:47.014  INFO 7360 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 17:46:47.064  INFO 7360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 17:46:49.295  WARN 7360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 17:46:50.660  INFO 7360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-11-23 17:46:50.689  INFO 7360 --- [main] com.osw.WorkDemoApplication              : Started WorkDemoApplication in 18.602 seconds (JVM running for 20.604)
+2022-11-23 17:47:54.299  INFO 7360 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-23 17:47:54.301  INFO 7360 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-23 17:47:54.306  INFO 7360 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-11-23 17:47:57.005  INFO 7360 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer module
+2022-11-23 17:48:04.468  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 17:48:04.470  WARN 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer not logged in
+2022-11-23 17:48:04.550  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e853edb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.555  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bc397f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.559  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c5711bc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.562  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69bbbea7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.566  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@120ba019 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.570  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@15f091fe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.573  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51eeb80d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.576  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65946a11 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.581  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a5015d2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:48:04.586  WARN 7360 --- [http-nio-9090-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bbe0e07 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-23 17:53:15.642  INFO 7360 --- [http-nio-9090-exec-8] c.osw.admin.controller.AdminController   : admin1validation successful
+2022-11-23 17:53:31.003  INFO 7360 --- [http-nio-9090-exec-1] c.osw.admin.controller.AdminController   : admin1details updated
+2022-11-23 17:53:46.261  WARN 7360 --- [http-nio-9090-exec-3] c.osw.admin.controller.AdminController   : Exception raised:Admin not found for username Rajasri and password Rajasri9
+2022-11-23 17:53:57.519  INFO 7360 --- [http-nio-9090-exec-10] c.osw.admin.controller.AdminController   : admin1validation successful
+2022-11-23 17:55:05.927  INFO 7360 --- [http-nio-9090-exec-10] c.o.p.controller.ProductController       : categoryCAT_001added
+2022-11-23 17:55:09.061  INFO 7360 --- [http-nio-9090-exec-8] c.o.p.controller.ProductController       : single categoryCAT_001 page 
+2022-11-23 17:56:38.154  INFO 7360 --- [http-nio-9090-exec-2] c.o.p.controller.ProductController       : productPROD_000001added
+2022-11-23 17:56:49.469  INFO 7360 --- [http-nio-9090-exec-5] c.o.p.controller.ProductController       : back to product page
+2022-11-23 17:56:52.712  INFO 7360 --- [http-nio-9090-exec-8] c.o.p.controller.ProductController       : single product PROD_000001 page 
+2022-11-23 17:57:08.319  INFO 7360 --- [http-nio-9090-exec-6] c.o.p.controller.ProductController       : productPROD_000001details updated
+2022-11-23 17:57:12.262  INFO 7360 --- [http-nio-9090-exec-7] c.o.p.controller.ProductController       : back to product page
+2022-11-23 17:57:19.782  INFO 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 17:57:19.784  WARN 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer not logged in
+2022-11-23 17:57:26.281  INFO 7360 --- [http-nio-9090-exec-2] c.o.p.controller.ProductController       : Back to category page
+2022-11-23 17:58:00.607  INFO 7360 --- [http-nio-9090-exec-5] c.o.p.controller.ProductController       : categoryCAT_002added
+2022-11-23 17:58:04.366  INFO 7360 --- [http-nio-9090-exec-1] c.o.p.controller.ProductController       : single categoryCAT_002 page 
+2022-11-23 17:59:13.512  INFO 7360 --- [http-nio-9090-exec-2] c.o.p.controller.ProductController       : productPROD_000002added
+2022-11-23 17:59:16.960  INFO 7360 --- [http-nio-9090-exec-10] c.o.p.controller.ProductController       : back to product page
+2022-11-23 17:59:22.174  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 17:59:22.176  WARN 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer not logged in
+2022-11-23 17:59:25.006  WARN 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer is not logged in
+2022-11-23 17:59:27.871  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer signup page
+2022-11-23 18:00:20.455  WARN 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Validation failed
+2022-11-23 18:00:27.245  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : Customer with CUST_0001 is registered
+2022-11-23 18:00:27.246  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer username for CUST_0001is generated
+2022-11-23 18:00:39.065  WARN 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : Exception raised: Customer Not Found for Username Rajasri and password Rajasri9@
+2022-11-23 18:00:48.788  WARN 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : Exception raised: Customer Not Found for Username Rajasri and password Rajasri9.
+2022-11-23 18:01:13.265  WARN 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : Exception raised: Customer Not Found for Username Rajasri and password Rajasri9@
+2022-11-23 18:01:34.673  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-11-23 18:01:46.852  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In category Fashion
+2022-11-23 18:01:50.152  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0001
+2022-11-23 18:01:51.965  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:01:51.967  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:01:54.110  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In category Fashion
+2022-11-23 18:02:54.140  INFO 7360 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In Product PROD_000002
+2022-11-23 18:02:57.032  INFO 7360 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : Product PROD_000002 is added to wishlist of customerCUST_0001
+2022-11-23 18:03:00.006  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0001
+2022-11-23 18:03:02.918  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : viewing product PROD_000002
+2022-11-23 18:03:05.198  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : Product PROD_000002 is added to cart 1
+2022-11-23 18:03:07.716  INFO 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:03:09.789  INFO 7360 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@1093ffa quantity is increased by 1
+2022-11-23 18:03:12.638  INFO 7360 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : the quantity for product com.osw.product.model.Product@19876c37 quantity is decreased by 1
+2022-11-23 18:03:14.913  INFO 7360 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : cartline 1 is removed from cart 1
+2022-11-23 18:03:18.813  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:03:21.853  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:03:21.854  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:03:25.374  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In category Fashion
+2022-11-23 18:03:27.198  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In Product PROD_000002
+2022-11-23 18:03:29.572  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Product PROD_000002 is added to cart 1
+2022-11-23 18:03:31.173  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:03:36.383  WARN 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : No address is found to set order
+2022-11-23 18:04:07.734  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer add Address
+2022-11-23 18:04:07.780  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : New Address of Id ADDR_01 for CUST_0001 is added
+2022-11-23 18:04:10.291  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:04:13.004  WARN 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : No address is found to set order
+2022-11-23 18:04:17.151  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:04:17.152  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:04:19.167  INFO 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : customer is logged out
+2022-11-23 18:04:31.937  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer validation successful
+2022-11-23 18:04:33.944  INFO 7360 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:04:50.214  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : Order 1 for address Address [addressId=ADDR_01, customer=com.osw.customer.model.Customer@5c772eb8, houseNo=3-97, street=fghjfghj, city=cfgvbncvghb, state=hgtrfdw, country=cgvhbn, postalCode=123456] of payment type cod is confirmed
+2022-11-23 18:04:52.666  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In orders page of customer CUST_0001
+2022-11-23 18:05:11.476  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In orders page of customer CUST_0001
+2022-11-23 18:05:16.349  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:07:04.095  INFO 7360 --- [http-nio-9090-exec-7] c.o.c.controller.CustomerController      : In orders page of customer CUST_0001
+2022-11-23 18:07:05.166  INFO 7360 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0001
+2022-11-23 18:07:07.534  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : viewing product PROD_000002
+2022-11-23 18:07:14.332  INFO 7360 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : Product PROD_000002 is removed from wishlist of customerCUST_0001
+2022-11-23 18:07:17.138  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In customer wishlist of customer CUST_0001
+2022-11-23 18:07:20.365  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:07:20.366  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:07:21.850  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : In category Electronics
+2022-11-23 18:07:23.639  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : In Product PROD_000001
+2022-11-23 18:07:25.649  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : Product PROD_000001 is added to cart 1
+2022-11-23 18:07:32.945  INFO 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In cart of customerCUST_0001
+2022-11-23 18:07:40.831  INFO 7360 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : Order 0 for address Address [addressId=ADDR_01, customer=com.osw.customer.model.Customer@3f6856b2, houseNo=3-97, street=fghjfghj, city=cfgvbncvghb, state=hgtrfdw, country=cgvhbn, postalCode=123456] of payment type Online is forwarded
+2022-11-23 18:08:53.060  INFO 7360 --- [http-nio-9090-exec-10] c.o.c.controller.CustomerController      : customer CUST_0001 places order 2 by online payment
+2022-11-23 18:08:54.962  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : In orders page of customer CUST_0001
+2022-11-23 18:09:25.278  INFO 7360 --- [http-nio-9090-exec-8] c.o.p.controller.ProductController       : single categoryCAT_002 page 
+2022-11-23 18:09:27.573  INFO 7360 --- [http-nio-9090-exec-9] c.o.p.controller.ProductController       : single product PROD_000002 page 
+2022-11-23 18:09:29.700  INFO 7360 --- [http-nio-9090-exec-6] c.o.p.controller.ProductController       : productPROD_000002deleted
+2022-11-23 18:09:33.226  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:09:33.228  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:09:35.470  INFO 7360 --- [http-nio-9090-exec-3] c.o.c.controller.CustomerController      : In category Fashion
+2022-11-23 18:09:39.776  INFO 7360 --- [http-nio-9090-exec-7] c.o.p.controller.ProductController       : categoryCAT_002deleted
+2022-11-23 18:09:42.614  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : In customer home
+2022-11-23 18:09:42.615  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : customer CUST_0001logged in 
+2022-11-23 18:09:47.826  INFO 7360 --- [http-nio-9090-exec-10] c.o.p.controller.ProductController       : single categoryCAT_001 page 
+2022-11-23 18:10:10.160  INFO 7360 --- [http-nio-9090-exec-5] c.o.c.controller.CustomerController      : customer browsed for phrase iphone
+2022-11-23 18:10:20.623  INFO 7360 --- [http-nio-9090-exec-8] c.o.c.controller.CustomerController      : customer browsed for phrase electronics
+2022-11-23 18:10:22.323  INFO 7360 --- [http-nio-9090-exec-9] c.o.c.controller.CustomerController      : customer browsed for phrase 
+2022-11-23 18:10:29.124  INFO 7360 --- [http-nio-9090-exec-6] c.o.c.controller.CustomerController      : customer browsed for phrase electronics
+2022-11-23 18:10:46.244  INFO 7360 --- [http-nio-9090-exec-1] c.o.c.controller.CustomerController      : In customer profile of customer CUST_0001
+2022-11-23 18:10:48.549  INFO 7360 --- [http-nio-9090-exec-2] c.o.c.controller.CustomerController      : In update customer address
+2022-11-23 18:10:54.305  INFO 7360 --- [http-nio-9090-exec-4] c.o.c.controller.CustomerController      : Customer details for customer id CUST_0001 are updated
+2022-11-23 18:11:51.442  INFO 14284 --- [main] com.osw.TestAdmin                        : Starting TestAdmin using Java 17.0.4.1 on HDLCAMPUS5345 with PID 14284 (started by MRAJASRI in C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1)
+2022-11-23 18:11:51.446  INFO 14284 --- [main] com.osw.TestAdmin                        : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 18:11:54.457  INFO 14284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 18:11:54.916  INFO 14284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 427 ms. Found 11 JPA repository interfaces.
+2022-11-23 18:11:56.811  INFO 14284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 18:11:57.020  INFO 14284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-23 18:11:57.532  INFO 14284 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-23 18:11:58.056  INFO 14284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-23 18:11:58.993  INFO 14284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-23 18:11:59.079  INFO 14284 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 18:12:02.189  INFO 14284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 18:12:02.216  INFO 14284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:12:05.277  WARN 14284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 18:12:07.066  INFO 14284 --- [main] com.osw.TestAdmin                        : Started TestAdmin in 16.859 seconds (JVM running for 21.528)
+2022-11-23 18:12:07.965  INFO 14284 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:12:07.971  INFO 14284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-23 18:12:08.010  INFO 14284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-23 18:12:38.149  INFO 14880 --- [main] com.osw.TestAdmin                        : Starting TestAdmin using Java 17.0.4.1 on HDLCAMPUS5345 with PID 14880 (started by MRAJASRI in C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1)
+2022-11-23 18:12:38.154  INFO 14880 --- [main] com.osw.TestAdmin                        : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 18:12:40.388  INFO 14880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 18:12:40.708  INFO 14880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 297 ms. Found 11 JPA repository interfaces.
+2022-11-23 18:12:42.450  INFO 14880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 18:12:42.617  INFO 14880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-23 18:12:43.197  INFO 14880 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-23 18:12:43.767  INFO 14880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-23 18:12:44.988  INFO 14880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-23 18:12:45.223  INFO 14880 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 18:12:48.679  INFO 14880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 18:12:48.707  INFO 14880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:12:52.123  WARN 14880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 18:12:54.449  INFO 14880 --- [main] com.osw.TestAdmin                        : Started TestAdmin in 17.413 seconds (JVM running for 20.698)
+2022-11-23 18:12:55.521  INFO 14880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:12:55.528  INFO 14880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-23 18:12:55.564  INFO 14880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-23 18:14:17.941  INFO 8676 --- [main] com.osw.TestCustomer                     : Starting TestCustomer using Java 17.0.4.1 on HDLCAMPUS5345 with PID 8676 (started by MRAJASRI in C:\Users\MRAJASRI\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\work_demo_1)
+2022-11-23 18:14:17.946  INFO 8676 --- [main] com.osw.TestCustomer                     : No active profile set, falling back to 1 default profile: "default"
+2022-11-23 18:14:20.278  INFO 8676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-23 18:14:20.636  INFO 8676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 330 ms. Found 11 JPA repository interfaces.
+2022-11-23 18:14:22.273  INFO 8676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-23 18:14:22.443  INFO 8676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-23 18:14:22.960  INFO 8676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-23 18:14:23.419  INFO 8676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-23 18:14:24.438  INFO 8676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-23 18:14:24.559  INFO 8676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-23 18:14:27.409  INFO 8676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-23 18:14:27.436  INFO 8676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:14:30.079  WARN 8676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-23 18:14:31.981  INFO 8676 --- [main] com.osw.TestCustomer                     : Started TestCustomer in 15.191 seconds (JVM running for 18.773)
+2022-11-23 18:14:33.375  INFO 8676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:14:33.381  INFO 8676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-23 18:14:33.416  INFO 8676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-23 18:14:44.597  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-23 18:14:44.627  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-23 18:14:44.632  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-23 18:14:44.650  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-23 18:14:44.653  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-23 18:14:44.668  INFO 7360 --- [RMI TCP Connection(41)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
